@@ -1,4 +1,8 @@
-# React Docker Demo
+# React TypeScript Vite
 
-# zenn
-https://zenn.dev/yamabiko/articles/react-docer-devcontainer
+## Using
+
+1. Install Visual Studio Code.
+    * Install [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers), a VSCode Extentions.
+1. Install Docker Desktop(Windows/Mac OS).
+1. Open this repository with Dev Container.
