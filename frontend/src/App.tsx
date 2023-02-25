@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import reactLogo from './assets/react.svg'
-import './App.css'
+import reactLogo from './assets/react.svg';
+import './App.css';
 
 const App = (): JSX.Element => {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -18,7 +18,11 @@ const App = (): JSX.Element => {
       <h1>Vite + React</h1>
 
       <div className="card">
-        <button onClick={() => { setCount((count) => count + 1); }}>
+        <button
+          onClick={() => {
+            setCount((count) => count + 1);
+          }}
+        >
           count is {count}
         </button>
         <p>
@@ -29,7 +33,7 @@ const App = (): JSX.Element => {
         Click on the Vite and React logos to learn more
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
